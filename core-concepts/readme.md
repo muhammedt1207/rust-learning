@@ -1,7 +1,4 @@
 
-md
-Copy
-Edit
 # 🦀 Rust Learning: Core Concepts
 
 A beginner-friendly Rust project exploring core concepts like functions, modules, enums, and project structure — especially for developers transitioning from JavaScript/Node.js.
@@ -12,9 +9,6 @@ A beginner-friendly Rust project exploring core concepts like functions, modules
 
 core-concepts/ ├── Cargo.toml ├── src/ │ ├── main.rs // Default entry point │ ├── functions.rs // Custom module │ ├── bin/ // Additional CLI apps │ │ ├── enums.rs // Enum usage demo
 
-rust
-Copy
-Edit
 
 ---
 
@@ -44,12 +38,20 @@ fn main() {
 ✅ &str is a borrowed string slice (like passing by reference in JS).
 ✅ format! is like a String builder: similar to JS template literals.
 
+
+---
+
+
+
 🧱 2. Modules
 mod filename; declares a module
 
 Call functions using filename::function()
 
 All .rs files must be in the src/ folder or src/bin/ for binaries
+
+
+---
 
 🧾 3. Enums and Pattern Matching
 src/bin/enums.rs
@@ -74,9 +76,7 @@ fn main() {
 }
 To run:
 
-bash
-Copy
-Edit
+
 cargo run --bin enums
 ⚠️ If you see:
 
@@ -86,12 +86,14 @@ Edit
 warning: variants `Guest` and `Admin` are never constructed
 That’s okay — it just means those enum variants weren’t used yet.
 
+
+---
+
+
 🧪 4. Running Multiple Files Like Node.js
 In Node.js:
 
-bash
-Copy
-Edit
+
 node main.js
 node task.js
 In Rust:

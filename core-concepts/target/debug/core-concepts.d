@@ -1,0 +1,1 @@
+C:\Users\admin\Desktop\rust-learning\core-concepts\target\debug\core-concepts.exe: C:\Users\admin\Desktop\rust-learning\core-concepts\src\functions.rs C:\Users\admin\Desktop\rust-learning\core-concepts\src\main.rs
